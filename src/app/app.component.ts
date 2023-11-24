@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'xrent_4u';
+  showLoader: boolean = false;
+  ngOnInit() {
+      this.showLoader = true;
+
+      setTimeout(() => {
+        this.showLoader = false;
+      }, 6000);
+
+  }
 }

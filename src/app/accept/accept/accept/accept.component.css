@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.accept_main_wraper {
+    background-image: url(../../../../assets/img/man.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.accept_box {
+    border-radius: 24px;
+    background: #1F2127;
+    padding: 70px 80px;
+}
+
+.aceept__content>h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+
+.logo_headers {
+    text-align: center;
+}
+
+.aceept__content>p {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.logo_headers>img {
+    width: 280px;
+}
+
+.logo_headers {
+    margin-bottom: 40px;
+}
+
+.btns_area>button {
+    border-radius: 32px;
+    border: 1px solid var(--light-1004, rgba(255, 255, 255, 0.04));
+    background: #2EC950;
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.08) inset;
+    padding: 8px 24px;
+    color: var(--light-900100, #FFF);
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.btns_area {
+    text-align: center;
+}
+
+.accept_box {
+    position: relative;
+    z-index: 99999999;
+    transform: translateY(50%);
+}
+
+.dis_agree>a {
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.dis_agree {
+    text-align: center;
+}
+
+.btns_area {
+    margin-bottom: 30px;
+}

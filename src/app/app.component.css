@@ -1,0 +1,39 @@
+.page_loader {
+    background: #1a1c20;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99999999999999;
+}
+
+.loaders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.inner_page_loader {
+    height: 100%;
+}
+
+.flame {
+    animation: zoom-in-zoom-out 2s ease-out infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: rotate(0deg);
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.8);
+    }
+}
