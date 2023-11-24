@@ -13,7 +13,7 @@ export class AppComponent {
 
       setTimeout(() => {
         this.showLoader = false;
-      }, 6000);
+      }, 4000);
 
   }
 }

@@ -37,3 +37,9 @@
         transform: scale(0.8);
     }
 }
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .loaders>svg {
+        width: 140px;
+    }
+}
