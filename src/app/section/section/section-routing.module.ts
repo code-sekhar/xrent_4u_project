@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AcceptComponent } from './accept/accept.component';
+import { SectionComponent } from './section/section.component';
 
 const routes: Routes = [
   {
-    path:'',component:AcceptComponent
+    path:'',component:SectionComponent
   }
 ];
 
@@ -12,4 +12,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class AcceptRoutingModule { }
+export class SectionRoutingModule { }

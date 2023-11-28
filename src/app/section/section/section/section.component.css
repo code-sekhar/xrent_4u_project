@@ -1,0 +1,208 @@
+.man {
+    background-color: #000;
+    background-image: url(../../../../assets/img/mans.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.woman {
+    background-color: #000;
+    background-image: url(../../../../assets/img/women.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trans {
+    background-color: #000;
+    background-image: url(../../../../assets/img/trans.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col_of_wrapes {
+    width: 33.3%;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.section_wrapers {
+    display: flex;
+    overflow: hidden;
+}
+
+.body_image>img {
+    width: 100%;
+    filter: grayscale(1.5);
+}
+
+.col_of_wrapes:hover>.body_image>img {
+    width: 100%;
+    filter: grayscale(0);
+}
+
+.col_of_wrapes {
+    position: relative;
+    transition: 0.5s;
+}
+
+.col_of_wrapes>h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    color: #FFF;
+    /* h2/bold/32px */
+    font-family: 'Open Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    opacity: 0;
+    visibility: hidden;
+    /* 38.4px */
+}
+
+.col_of_wrapes:hover>h4 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.man_form_body,
+.woman_form_body,
+.trans_form_body {
+    position: fixed;
+    background: #1A1C21;
+    background: -webkit-linear-gradient(to right, #1A1C21, #1b2331);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1A1C21, #1b2331);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+a.man_close_btn {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d9d9d936;
+    border-radius: 100px;
+}
+
+a.man_close_btn>span {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.man_form_body,
+.woman_form_body,
+.trans_form_body {
+    padding-top: 80px;
+    overflow-y: scroll;
+    padding-bottom: 60px;
+}
+
+a.man_close_btn {
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+
+.off_people_boxs {
+    padding: 0px 20px;
+}
+
+.man_close_btn {
+    cursor: pointer;
+}
+
+.trans_form_body {
+    overflow-y: scroll;
+}
+
+img.desk_img {
+    display: block;
+}
+
+img.mob_img {
+    display: none;
+}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {
+    .section_wrapers {
+        flex-direction: column;
+    }
+    .col_of_wrapes {
+        width: 100%;
+        height: 33.3vh;
+        cursor: pointer;
+    }
+    img.desk_img {
+        display: none !important;
+    }
+    img.mob_img {
+        display: block !important;
+    }
+}
+
+
+/* js_cont_justify */
+
+@media only screen and (max-width: 1366px) and (min-width: 993px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}

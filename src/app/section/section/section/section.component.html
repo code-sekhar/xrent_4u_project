@@ -1,0 +1,57 @@
+<div class="section_wrapers_bodys">
+    <div class="inner_section_wrapers_bodys">
+        <div class="section_wrapers">
+            <div class="col_of_wrapes man" (click)="manHandler()">
+                <div class="body_image">
+                    <img src="../../../../assets/img/mans.png" alt="" srcset="" class="desk_img">
+                    <img src="../../../../assets/img/mob_man.png" alt="" srcset="" class="mob_img">
+                </div>
+                <h4>M A N</h4>
+            </div>
+            <div class="col_of_wrapes woman" (click)="womanHandler()">
+                <div class="body_image">
+                    <img src="../../../../assets/img/women.png" alt="" srcset="" class="desk_img">
+                    <img src="../../../../assets/img/mob_woman.png" alt="" srcset="" class="mob_img">
+                </div>
+                <h4>W O M A N</h4>
+            </div>
+            <div class="col_of_wrapes trans" (click)="transHandler()">
+                <div class="body_image">
+                    <img src="../../../../assets/img/trans.png" alt="" srcset="" class="desk_img">
+                    <img src="../../../../assets/img/mob_tran.png" alt="" srcset="" class="mob_img">
+                </div>
+                <h4>T R A N S</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="man_form_body" *ngIf="man_show">
+    <a class="man_close_btn" (click)="clickCloseHandler()">
+        <span class="cl">
+      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683418 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L5.00002 3.5858L8.29289 0.292926C8.68342 -0.0975987 9.31658 -0.0975987 9.70711 0.292926C10.0976 0.68345 10.0976 1.31661 9.70711 1.70714L6.41423 5.00002L9.70707 8.29286C10.0976 8.68339 10.0976 9.31655 9.70707 9.70708C9.31655 10.0976 8.68338 10.0976 8.29286 9.70708L5.00002 6.41423L1.70714 9.70711C1.31662 10.0976 0.683452 10.0976 0.292927 9.70711C-0.0975971 9.31658 -0.0975971 8.68342 0.292927 8.29289L3.5858 5.00002L0.292893 1.70711C-0.0976311 1.31658 -0.097631 0.683417 0.292893 0.292893Z" fill="white" fill-opacity="0.5"/>
+      </svg>
+    </span>
+    </a>
+    <app-man></app-man>
+</div>
+<div class="woman_form_body" *ngIf="woman_show">
+    <a class="man_close_btn" (click)="clickCloseHandler()">
+        <span class="cl">
+  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683418 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L5.00002 3.5858L8.29289 0.292926C8.68342 -0.0975987 9.31658 -0.0975987 9.70711 0.292926C10.0976 0.68345 10.0976 1.31661 9.70711 1.70714L6.41423 5.00002L9.70707 8.29286C10.0976 8.68339 10.0976 9.31655 9.70707 9.70708C9.31655 10.0976 8.68338 10.0976 8.29286 9.70708L5.00002 6.41423L1.70714 9.70711C1.31662 10.0976 0.683452 10.0976 0.292927 9.70711C-0.0975971 9.31658 -0.0975971 8.68342 0.292927 8.29289L3.5858 5.00002L0.292893 1.70711C-0.0976311 1.31658 -0.097631 0.683417 0.292893 0.292893Z" fill="white" fill-opacity="0.5"/>
+  </svg>
+</span>
+    </a>
+    <app-woman></app-woman>
+</div>
+<div class="trans_form_body" *ngIf="treans_show">
+    <a class="man_close_btn" (click)="clickCloseHandler()">
+        <span class="cl">
+  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10" fill="none">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.292893 0.292893C0.683418 -0.0976311 1.31658 -0.0976311 1.70711 0.292893L5.00002 3.5858L8.29289 0.292926C8.68342 -0.0975987 9.31658 -0.0975987 9.70711 0.292926C10.0976 0.68345 10.0976 1.31661 9.70711 1.70714L6.41423 5.00002L9.70707 8.29286C10.0976 8.68339 10.0976 9.31655 9.70707 9.70708C9.31655 10.0976 8.68338 10.0976 8.29286 9.70708L5.00002 6.41423L1.70714 9.70711C1.31662 10.0976 0.683452 10.0976 0.292927 9.70711C-0.0975971 9.31658 -0.0975971 8.68342 0.292927 8.29289L3.5858 5.00002L0.292893 1.70711C-0.0976311 1.31658 -0.097631 0.683417 0.292893 0.292893Z" fill="white" fill-opacity="0.5"/>
+  </svg>
+</span>
+    </a>
+    <app-trans></app-trans>
+</div>
