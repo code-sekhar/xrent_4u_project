@@ -334,10 +334,33 @@ button.resat_btn {
 
 @media only screen and (max-width: 999px) and (min-width: 300px) {
     .radio-buttons {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .radio-btn {
+        width: 90%;
+    }
+    .hobbies-icon>h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .hobbies-icon>h4 {
+        font-size: 12px;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    .hobbies-icon>h5 {
+        font-size: 12px;
+        margin-bottom: 0;
+        line-height: 1;
+    }
+    .radio-btn {
+        margin: 10px;
+        text-align: center;
+        border-radius: 8px;
+        height: 85px;
     }
     span.radio-btn.shape_cols {
-        width: 114px;
+        width: 90%;
         height: 75px;
         margin-left: 4px !important;
     }
@@ -345,10 +368,9 @@ button.resat_btn {
         width: 80px;
         height: 55px;
     }
-    span.radio-btn.shape_cols {
-        width: 82px !important;
-        height: 62px !important;
-        margin-left: 2px !important;
+    span.radio-btn.tr_cols {
+        width: 90%;
+        height: 55px;
     }
     button.profiles_btn {
         padding: 12px 22px;
@@ -358,5 +380,30 @@ button.resat_btn {
     }
     .checks_box_cover>label {
         text-align: center;
+    }
+    .radio-buttons.shape_cols_cols {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .submit_action_btns_areas_innere {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    button.resat_btn {
+        margin-bottom: 16px;
+    }
+    button.profiles_btn {
+        margin-left: 0px !important;
+    }
+    .submit_action_btns_areas_innere>button {
+        width: 212px;
+    }
+    .checks_box_cover>label {
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    label.main_label {
+        font-size: 15px;
     }
 }

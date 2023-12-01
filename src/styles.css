@@ -42,3 +42,24 @@
 .ngx-slider {
     margin: 10px 0 0px !important;
 }
+
+.owl-theme .owl-nav [class*=owl-] {
+    color: #FFF;
+    background: #d6d6d600 !important;
+}
+
+.owl-prev {
+    left: 40px;
+    background: red !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.owl-next {
+    right: 40px;
+    background: red !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

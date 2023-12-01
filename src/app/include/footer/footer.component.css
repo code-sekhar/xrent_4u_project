@@ -1,0 +1,135 @@
+footer {
+    background: linear-gradient(90deg, #1E232C 0%, #1A1C21 100%);
+}
+
+.footer_area {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.footer_content_inner>p {
+    color: #DADADA;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 15.6px */
+    margin-bottom: 0;
+}
+
+.footer_logo {
+    margin-bottom: 24px;
+}
+
+.footer_logo>img {
+    width: 200px;
+}
+
+.footer_menus>ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+}
+
+.footer_menus>ul>li {
+    margin-bottom: 15px;
+}
+
+.footer_menus>ul>li>a {
+    color: #DADADA;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    /* 15.6px */
+}
+
+.social_media_content>ul>li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social_media_content>ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+.social_media {
+    float: right;
+}
+
+.social_media_header>h4 {
+    color: #DADADA;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 15.6px */
+    margin-bottom: 14px;
+}
+
+.social_media_content>ul>li>a {
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    background: #546178;
+    border-radius: 100px;
+    justify-content: center;
+}
+
+.social_media_content>ul>li {
+    margin-right: 8px;
+}
+
+.social_media_content>ul>li>a.active_s_link {
+    background-color: #EE0027;
+}
+
+.fct_txt>h4 {
+    color: #DADADA;
+    /* h5/regular/10px */
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 12px */
+    margin-bottom: 0;
+}
+
+.crt_link>ul {
+    text-align: right;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.crt_link>ul>li {
+    display: inline-block;
+    margin-left: 32px;
+}
+
+.crt_link>ul>li>a {
+    text-decoration: none;
+    color: #DADADA;
+    /* h5/regular/10px */
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 12px */
+}
+
+.fct {
+    padding: 48px 0px;
+    border-top: 2px solid rgba(84, 97, 120, 0.50);
+}

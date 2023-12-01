@@ -1,0 +1,483 @@
+.king_box {
+    border-radius: 3px;
+    background: #EE0027;
+    padding: 7px 13px;
+    width: 64px;
+    height: 24px;
+    /* position: absolute; */
+    flex-shrink: 0;
+    left: 24px;
+    top: 24px;
+}
+
+span.king_text {
+    color: #FFF;
+    /* h5/bold/10px */
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 12px */
+}
+
+span.king_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4px;
+    justify-content: center;
+}
+
+span.king_icon>svg {
+    margin-top: 2px;
+}
+
+.inner_king_box {
+    display: flex;
+    align-items: center;
+}
+
+button.r_write {
+    padding: 15px 25px;
+    border-radius: 10px;
+    background: #EE0027;
+    color: var(--White-primary, #FFF);
+    /* h4/bold/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 19.2px */
+    border: none;
+    outline: none;
+}
+
+.profile_details {
+    border-radius: 12px;
+    background: #242932;
+    padding: 48px;
+    padding-bottom: 32px;
+}
+
+.in_brands>h4 {
+    color: #FFF;
+    /* h3/bold/31px */
+    font-family: Open Sans;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 37.2px */
+    margin-bottom: 0;
+    margin-right: 16px;
+}
+
+.top_brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.in_brands {
+    display: flex;
+    align-items: center;
+}
+
+.profile_delails_area {
+    padding-top: 54px;
+}
+
+.useer_location {
+    border-radius: 12px;
+    background: rgba(217, 217, 217, 0.03);
+}
+
+span.location_name>h4 {
+    color: #FFF;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 15.6px */
+}
+
+span.location_name>h2 {
+    color: #FFF;
+    /* h3/black/20px */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 120%;
+    /* 24px */
+}
+
+span.location_icon>i {
+    color: #EE0027;
+    font-size: 30px;
+}
+
+span.location_icon {
+    display: block;
+    margin-right: 12px;
+}
+
+.useer_location {
+    display: flex;
+    align-items: center;
+}
+
+.useer_location {
+    padding: 22px 30px;
+    width: 267px;
+}
+
+.rating_review>h4 {
+    color: #FFF;
+    /* h3/black/20px */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1;
+    /* 24px */
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+span.stars {
+    margin-right: 12px;
+}
+
+.rating_review>h5 {
+    color: #FFF;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 15.6px */
+}
+
+.inner_bottom_brand {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom_brand {
+    margin-top: 15px;
+}
+
+.inner_main_profile_images {
+    border-radius: 12px;
+    background: #D9D9D9;
+    overflow: hidden;
+}
+
+.inner_main_profile_images>img {
+    width: 100%;
+}
+
+.action_aast_area>button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background: #242932;
+    padding: 15px 60px;
+    line-height: 1;
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 19.2px */
+    border: none;
+}
+
+.action_aast_area>button>span {
+    display: block;
+    margin-right: 13px;
+    color: #EE0027;
+}
+
+.profile_action_aast {
+    margin-top: 34px;
+}
+
+.description_heading>h4 {
+    display: flex;
+    color: #FFF;
+    /* h3/bold/20px */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 24px */
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.description_heading>h4>span {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.description_heading>p {
+    color: #FFF;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: unset;
+    /* 15.6px */
+    margin-bottom: 0;
+}
+
+.inner_profile_descriptions {
+    margin-top: 44px;
+}
+
+.inner_main_profile_images {
+    width: 94%;
+}
+
+h4.heading_dct {
+    color: #FFF;
+    /* h3/bold/20px */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 24px */
+}
+
+h4.heading_dct>span {
+    margin-right: 16px;
+}
+
+.point_box>h4 {
+    color: rgba(255, 255, 255, 0.30);
+    /* h4/bold/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 8px;
+}
+
+.point_box>h3 {
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 0;
+}
+
+.escort_information_full>ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.escort_information_areas_contents {
+    margin-top: 39px;
+}
+
+.profile_status {
+    border-radius: 21px;
+    background: rgba(30, 35, 44, 0.60);
+    position: absolute;
+    bottom: 28px;
+    left: 28px;
+    padding: 13px 33px;
+}
+
+.main_profile_images {
+    position: relative;
+}
+
+.inner_profile_status>h4 {
+    color: #FFF;
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+    /* padding: 13px 33px; */
+    margin-bottom: 0;
+}
+
+.inner_profile_delails_area {
+    margin-bottom: 56px;
+}
+
+.escort_information_full>ul>li {
+    display: inline-block;
+    margin-right: 48px;
+}
+
+.escort_information_full>ul>li {
+    margin-bottom: 32px;
+}
+
+.escort_information_full.language>ul>li {
+    margin-right: 18px !important;
+}
+
+.escort_information_areas.language_container {
+    margin-top: 30px !important;
+}
+
+span.g_status {
+    margin-right: 8px;
+}
+
+
+/* popup_areas */
+
+.write_review_area {
+    position: fixed;
+    background: #242932;
+    border-radius: 10px;
+    z-index: 9999999;
+    padding: 56px 60px;
+    padding-bottom: 36px;
+    left: 50%;
+    top: 0;
+    /* right: 0; */
+    width: 790px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.write_header>h3 {
+    color: #FFF;
+    /* h3/bold/25px */
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 30px */
+    margin-bottom: 12px;
+}
+
+.write_header>h4 {
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 26px;
+}
+
+textarea.pp_msg {
+    border-radius: 5px;
+    border: 1.5px solid rgba(84, 97, 120, 0.30);
+    background: #1E232C;
+    width: 100%;
+    height: 215px;
+    outline: none;
+    padding: 6px;
+    color: #fff;
+}
+
+.text_area_box>h4 {
+    color: #3F4A5E;
+    /* h5/regular/10px */
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 12px */
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: right;
+}
+
+.text_area_box {}
+
+button.submit_btn {
+    border-radius: 10px;
+    background: #EE0027;
+    padding: 15px 26px;
+    border: none;
+    outline: none;
+    line-height: 1;
+    color: var(--White-primary, #FFF);
+    /* h4/bold/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 19.2px */
+}
+
+.submit_btn_areas {
+    text-align: center;
+}
+
+.bg_popup {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(26, 28, 33, 0.80);
+    z-index: 9;
+}
+
+a.close_btns {
+    background: #282d35;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    top: 26px;
+    right: 26px;
+}
+
+a.close_btns>span {
+    line-height: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .escort_information_full>ul>li:first-child {
+    margin-left: 0px;
+} */

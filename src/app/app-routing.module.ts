@@ -8,6 +8,13 @@ const routes: Routes = [
   {
     path:'section',loadChildren:()=>import('../app/section/section/section.module').then(m=>m.SectionModule)
   },
+  {
+    path:'home',loadChildren:()=>import('../app/pages/home/home.module').then(m=>m.HomeModule)
+  },{
+    path:'perfil',loadChildren:()=>import('../app/pages/perfil/perfil.module').then(m=>m.PerfilModule)
+  },{
+    path:'home/perfil',loadChildren:()=>import('../app/pages/perfil/perfil.module').then(m=>m.PerfilModule)
+  }
 ];
 
 @NgModule({
