@@ -21,6 +21,9 @@ const routes: Routes = [
       {
         path:'change-password',component:ChangePasswordComponent
       },
+      {
+        path:'my-profile',loadChildren:()=>import('../portal/my-profile/my-profile.module').then(m=>m.MyProfileModule)
+      },
      // { path: 'change-password', redirectTo: '/change-password', pathMatch: 'full' },
      ]
   }
