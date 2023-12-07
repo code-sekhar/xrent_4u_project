@@ -1,0 +1,547 @@
+.step_pointss>h4 {
+    color: #FFF;
+    text-align: left;
+    /* h4/bold/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 0;
+}
+
+.stape_indecate_box>ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.stape_indecate_box>ul>li {
+    margin-bottom: 40px;
+}
+
+.stape_indecate_box>ul>li>.step_pointss {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+span.step_icon {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #242932;
+    border-radius: 100px;
+    margin-left: 16px;
+}
+
+.step_formate_box {
+    padding-top: 34px;
+}
+
+span.step_icon.active_iconss {
+    background: #EE0027;
+}
+
+.stape_indecate {
+    position: relative;
+    padding-right: 40px;
+}
+
+.stape_indecate::after {
+    content: '';
+    position: absolute;
+    background: rgba(84, 97, 120, 0.30);
+    width: 2px;
+    /* top: 0; */
+    bottom: 0;
+    right: 0;
+    height: calc(100% - 30px);
+}
+
+.stape_indecate_box>ul>li {
+    position: relative;
+}
+
+.stape_indecate_box>ul>li::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    background: #1E232C;
+    right: -43px;
+    top: 50%;
+    border: 1px solid #546178;
+    border-radius: 100px;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.stape_indecate_box>ul>li.active_border::after {
+    background: #EE0027;
+    border: 1px solid #EE0027;
+}
+
+.step_count>h4 {
+    color: #FFF;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 15.6px */
+    margin-bottom: 0;
+}
+
+.to_inner_side_ber_content>h3 {
+    color: #FFF;
+    /* h3/bold/25px */
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 30px */
+    margin-bottom: 12px;
+}
+
+.step_count {
+    margin-bottom: 32px;
+}
+
+.to_inner_side_ber_content>h4 {
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 0;
+}
+
+.top_sidesbar {
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(84, 97, 120, 0.30);
+}
+
+.step_form_datas {
+    padding-top: 22px;
+}
+
+.input_step_field>label {
+    color: #FFF;
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+    margin-bottom: 16px;
+}
+
+input.input_field {
+    border-radius: 5px;
+    border: 1.5px solid rgba(84, 97, 120, 0.30);
+    background: #1E232C;
+    width: 100%;
+    padding: 12px;
+    outline: none;
+}
+
+select.input_field {
+    border-radius: 5px;
+    border: 1.5px solid rgba(84, 97, 120, 0.30);
+    background: #1E232C;
+    width: 100%;
+    padding: 12px;
+}
+
+textarea.input_field {
+    border-radius: 5px;
+    border: 1.5px solid rgba(84, 97, 120, 0.30);
+    background: #1E232C;
+    width: 100%;
+    padding: 12px;
+    height: 122px;
+    outline: none;
+}
+
+.item_input_custom_field_40 {
+    margin-bottom: 40px;
+}
+
+.input_step_field {
+    margin-bottom: 24px;
+}
+
+.second_bottom_parts {
+    padding-top: 32px;
+}
+
+button.next_submit {
+    border-radius: 10px;
+    border: 2px solid #EE0027;
+    background: #A22327;
+    padding: 12px 40px;
+    color: var(--White-primary, #FFF);
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+}
+
+button.backs {
+    color: var(--White-primary, #FFF);
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 15.6px */
+    background: transparent;
+    border: none;
+    opacity: 0.2;
+    padding: 12px 40px;
+}
+
+.inner_submit_action_ares {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.stape_indecate {
+    height: 100%;
+}
+
+input.img_up_load {
+    width: 134px;
+    height: 134px;
+    /* flex-shrink: 0; */
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image_up_box {
+    position: relative;
+    width: 134px;
+    height: 134px;
+    flex-shrink: 0;
+    background: #292D32;
+    border-radius: 500px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.up_top_img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    background: #292D32;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.up_top_img>h4 {
+    color: rgba(255, 255, 255, 0.40);
+    /* h5/regular/10px */
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 12px */
+}
+
+.up_top_img>span {
+    margin-bottom: 6px;
+}
+
+
+/* radio_btns */
+
+.radio-buttons {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.custom-radio input {
+    display: none;
+}
+
+.radio-btn {
+    margin: 10px;
+    margin-left: 0px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    border: 1.5px solid #546178;
+    cursor: pointer;
+    width: 90%;
+    height: 44px;
+    flex-shrink: 0;
+    margin-left: 0px !important;
+}
+
+.radio-btn>i {
+    color: #ffffff;
+    background-color: #FFDAE9;
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%) scale(2);
+    border-radius: 50px;
+    padding: 3px;
+    transition: 0.5s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.hobbies-icon>h4 {
+    color: #546178;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.radio-btn .hobbies-icon img {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.radio-btn .hobbies-icon i {
+    color: #FFDAE9;
+    line-height: 80px;
+    font-size: 60px;
+}
+
+.hobbies-icon>h3 {
+    color: #546178;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
+    /* line-height: 120%; */
+}
+
+.hobbies-icon>h5 {
+    color: #546178;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.custom-radio input:checked+.radio-btn>.hobbies-icon>h5 {
+    color: #FFF;
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.custom-radio input:checked+.radio-btn {
+    border-radius: 5px;
+    border: 1.5px solid #DA3A3F;
+    background: #A22327;
+    /* 15.6px */
+}
+
+.radio-buttons {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 2px 0;
+    row-gap: 1rem;
+}
+
+.hobbies-icon {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner_row_size>span {
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 15px;
+    /* 19.2px */
+    /* 15.6px */
+}
+
+.radio-buttons.thrd_cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 2px 0;
+    row-gap: 1rem;
+}
+
+span.radio-btn.tr_cols {
+    width: 88%;
+    height: 60px;
+}
+
+span.radio-btn.shape_cols {
+    width: 150px;
+    height: 75px;
+    margin-left: 8px !important;
+}
+
+input::placeholder {
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 19.2px */
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="checkbox"] {
+    border-radius: 3px;
+    border: 1px solid #546178;
+    background: #1E232C;
+    color: green;
+    /* color set here so that Windows' High-Contrast Mode can override */
+    height: 1.1em;
+    position: relative;
+    width: 1.1em;
+    vertical-align: -5px;
+    /* adjusts the position of the checkboxes on the text baseline */
+}
+
+input[type="checkbox"]::before {
+    color: rgb(255, 255, 255);
+    content: "✔";
+    font-size: 1em;
+    position: absolute;
+    right: -1px;
+    top: -0.2em;
+    visibility: hidden;
+}
+
+input[type="checkbox"]:checked::before {
+    /* use `visibility` instead of `display` to avoid recalculating layout */
+    visibility: visible;
+}
+
+input[type="checkbox"]:disabled {
+    border-radius: 3px;
+    border: 1px solid #546178;
+    background: #1E232C;
+    color: gray;
+}
+
+label.main_label {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.checks_box_cover>label {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.checks_box_cover>label>input {
+    margin-right: 6px;
+    font-size: 18px;
+}
+
+.inner_row_size_oxx {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 2px 0;
+    row-gap: 1rem;
+}
+
+.col_col_box {
+    width: 90%;
+}
+
+.bt_mgss {
+    border-top: 1px solid rgba(84, 97, 120, 0.30);
+    padding-top: 42px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid rgba(84, 97, 120, 0.30);
+    margin-bottom: 36px;
+}
+
+.bt_mgss>label {
+    color: #FFF;
+    /* h3/bold/20px */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 16px;
+    /* 24px */
+}
+
+.bt_mgss.border_to_0 {
+    border-top: 0;
+    padding-top: 0;
+}
+
+.input_step_field.cst_labelss>label {
+    color: #FFF;
+    /* h3/bold/20px */
+    font-family: Open Sans;
+    font-size: 20px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 24px */
+}
+
+.second_bottom_parts {
+    padding-bottom: 200px;
+}

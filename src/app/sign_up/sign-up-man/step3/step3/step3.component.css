@@ -1,0 +1,294 @@
+.step_pointss>h4 {
+    color: #FFF;
+    text-align: left;
+    /* h4/bold/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 0;
+}
+
+.stape_indecate_box>ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.stape_indecate_box>ul>li {
+    margin-bottom: 40px;
+}
+
+.stape_indecate_box>ul>li>.step_pointss {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+span.step_icon {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #242932;
+    border-radius: 100px;
+    margin-left: 16px;
+}
+
+.step_formate_box {
+    padding-top: 34px;
+}
+
+span.step_icon.active_iconss {
+    background: #EE0027;
+}
+
+.stape_indecate {
+    position: relative;
+    padding-right: 40px;
+}
+
+.stape_indecate::after {
+    content: '';
+    position: absolute;
+    background: rgba(84, 97, 120, 0.30);
+    width: 2px;
+    /* top: 0; */
+    bottom: 0;
+    right: 0;
+    height: calc(100% - 30px);
+}
+
+.stape_indecate_box>ul>li {
+    position: relative;
+}
+
+.stape_indecate_box>ul>li::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    background: #1E232C;
+    right: -43px;
+    top: 50%;
+    border: 1px solid #546178;
+    border-radius: 100px;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.stape_indecate_box>ul>li.active_border::after {
+    background: #EE0027;
+    border: 1px solid #EE0027;
+}
+
+.step_count>h4 {
+    color: #FFF;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 15.6px */
+    margin-bottom: 0;
+}
+
+.to_inner_side_ber_content>h3 {
+    color: #FFF;
+    /* h3/bold/25px */
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 30px */
+    margin-bottom: 12px;
+}
+
+.step_count {
+    margin-bottom: 32px;
+}
+
+.to_inner_side_ber_content>h4 {
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 0;
+}
+
+.top_sidesbar {
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(84, 97, 120, 0.30);
+}
+
+.step_form_datas {
+    padding-top: 22px;
+}
+
+.input_step_field>label {
+    color: #FFF;
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+    margin-bottom: 16px;
+}
+
+input.input_field {
+    border-radius: 5px;
+    border: 1.5px solid rgba(84, 97, 120, 0.30);
+    background: #1E232C;
+    width: 100%;
+    padding: 12px;
+}
+
+.input_step_field {
+    margin-bottom: 24px;
+}
+
+.second_bottom_parts {
+    padding-top: 32px;
+}
+
+button.next_submit {
+    border-radius: 10px;
+    border: 2px solid #EE0027;
+    background: #A22327;
+    padding: 12px 40px;
+    color: var(--White-primary, #FFF);
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+}
+
+button.backs {
+    color: var(--White-primary, #FFF);
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 15.6px */
+    background: transparent;
+    border: none;
+    opacity: 0.2;
+    padding: 12px 40px;
+}
+
+.inner_submit_action_ares {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+.stape_indecate {
+    height: 100%;
+}
+
+.second_bottom_parts {
+    padding-bottom: 100px;
+}
+
+.img_box {
+    border-radius: 15px;
+    background: #D9D9D9;
+    overflow: hidden;
+    margin-bottom: 28px;
+}
+
+.img_box>img {
+    width: 100%;
+}
+
+.inner_gallery_container {
+    padding-top: 28px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 12px;
+    background: #242932;
+}
+
+.gallery_container {
+    margin-bottom: 40px;
+}
+
+input.img_up_load {
+    width: 100%;
+    height: 181px;
+    /* flex-shrink: 0; */
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.image_up_box {
+    position: relative;
+    width: 100%;
+    height: 181px;
+    flex-shrink: 0;
+    background: #292D32;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.up_top_img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    background: #292D32;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.up_top_img>h4 {
+    color: rgba(255, 255, 255, 0.40);
+    /* h5/regular/10px */
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 12px */
+}
+
+.up_top_img>span {
+    margin-bottom: 6px;
+}
+
+.img_box {
+    /* height: 100%; */
+}
+
+.up_image {
+    height: 100%;
+}
+
+.image_up_box {
+    height: 100%;
+}
+
+.image_up_box {
+    height: 246px;
+}

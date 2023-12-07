@@ -1,0 +1,53 @@
+.banner_image>img {
+    width: 100%;
+}
+
+.banner_image {}
+
+.banner_section {
+    position: relative;
+}
+
+.banner_section::after {
+    content: '';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 9;
+    position: absolute;
+    background: rgba(26, 28, 33, 0.90);
+}
+
+.banner_content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+
+.col_head>h4 {
+    color: #FFF;
+    text-align: center;
+    /* h3/bold/25px */
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 30px */
+}
+
+.col_head>p {
+    color: #FFF;
+    text-align: center;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+}

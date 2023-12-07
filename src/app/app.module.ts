@@ -5,6 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './include/header/header.component';
 import { FooterComponent } from './include/footer/footer.component';
+import { LoginComponent } from './login/login.component';
+import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { SucessComponent } from './sucess/sucess.component';
 
 
 @NgModule({
@@ -12,6 +15,10 @@ import { FooterComponent } from './include/footer/footer.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    LoginComponent,
+    ForgotPasswordComponent,
+    SucessComponent,
+
 
 
   ],

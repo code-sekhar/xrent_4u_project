@@ -1,0 +1,40 @@
+/*  */
+
+.man_sign_up_page {
+    background: #1E232C;
+}
+
+.full_page_headings>h2 {
+    color: #FFF;
+    /* h3/bold/25px */
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 1;
+    /* 30px */
+}
+
+.full_page_headings>p {
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 0;
+}
+
+.full_main_pagess {
+    padding-top: 51px;
+    padding-bottom: 36px;
+    border-bottom: 1px solid #546178;
+}
+
+.man_sign_up_page {
+    background: #1E232C;
+    min-height: 100%;
+}

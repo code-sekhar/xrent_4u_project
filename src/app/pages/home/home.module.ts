@@ -5,7 +5,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home/home.component';
 import { BannerComponent } from './section/banner/banner.component';
 import { KingsOfWeekComponent } from './section/kings-of-week/kings-of-week.component';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,7 @@ import { KingsOfWeekComponent } from './section/kings-of-week/kings-of-week.comp
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,CarouselModule
   ]
 })
 export class HomeModule { }

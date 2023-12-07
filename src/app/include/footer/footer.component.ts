@@ -15,7 +15,7 @@ displayfooter(): boolean {
   // Implement logic to conditionally display the header based on the current route
   let currentRoute = this.router.url;
 
-  return currentRoute === '/home'|| currentRoute === '/perfil' ||currentRoute === '/home/perfil' ;
+  return currentRoute === '/home'|| currentRoute === '/perfil' ||currentRoute === '/home/perfil' ||currentRoute === '/planos';
   // Example: Display header on all routes except '/about'
 } // Example: Display header on all routes except '/about'
 
