@@ -63,3 +63,29 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+.slide_up_images .owl-prev {
+    left: -40px !important;
+}
+
+.slide_up_images .owl-next {
+    right: -40px !important;
+}
+
+.planpage .owl-dots .owl-dot.active>span {
+    width: 28px !important;
+    height: 28px !important;
+    flex-shrink: 0;
+    background: #EE0027 !important;
+}
+
+.planpage .owl-theme .owl-dots .owl-dot span {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    background-color: #546178;
+}
+
+.plan_columns {
+    margin-bottom: 24px;
+}

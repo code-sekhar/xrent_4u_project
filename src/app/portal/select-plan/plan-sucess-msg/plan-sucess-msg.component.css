@@ -1,0 +1,58 @@
+.profile_btn_area>button {
+    border-radius: 10px;
+    border: 2px solid var(--Red-primary, #DA3A3F);
+    background: #A22327;
+    color: var(--White-primary, #FFF);
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+    padding: 12px 23px;
+}
+
+.full_sucess_msg {
+    text-align: center;
+}
+
+.full_sucess_msg>span>img {
+    width: 80px;
+    height: 80px;
+}
+
+.full_sucess_msg>span {
+    display: block;
+    margin-bottom: 36px;
+}
+
+.full_sucess_msg>h3 {
+    color: #FFF;
+    text-align: center;
+    /* h3/bold/25px */
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 30px */
+    margin-bottom: 12px;
+}
+
+.full_sucess_msg>p {
+    color: #FFF;
+    text-align: center;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 36px;
+}
+
+.payment_sucess_response {
+    background: #1E232C;
+}

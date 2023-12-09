@@ -1,0 +1,139 @@
+.upload_photos_section {
+    padding: 60px 0px;
+}
+
+.photo_headers>h4 {
+    color: #FFF;
+    /* h3/bold/25px */
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 30px */
+    margin-bottom: 12px;
+}
+
+.photo_headers>p {
+    color: #FFF;
+    /* h4/regular/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 0;
+}
+
+.header_upload_photos_section {
+    margin-bottom: 80px;
+}
+
+.form_slide {
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #D9D9D9;
+    margin-top: 15px;
+    /* overflow: hidden; */
+}
+
+input.file_upps {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.form_slide.upp_up {
+    background-color: transparent;
+    height: 315px;
+    border-radius: 12px;
+    border: 1px solid #2E3643;
+}
+
+.upload_img_box {
+    height: 100%;
+}
+
+.up_img {
+    height: 100%;
+}
+
+.inner_submit_field_item>button {
+    border-radius: 10px;
+    border: 2px solid var(--Red-primary, #DA3A3F);
+    background: #A22327;
+    padding: 12px 40px;
+    color: var(--White-primary, #FFF);
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+}
+
+.blank_100 {
+    height: 100px;
+}
+
+.inner_submit_field_item {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.up_img {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.up_img {
+    position: relative;
+}
+
+a.edit_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a.delete {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    display: flex;
+    background: #EE0027;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    z-index: 999;
+    right: -9px;
+    top: -8px;
+}
+
+.form_slide {
+    position: relative;
+}
+
+.full_ttx>h4 {
+    color: #FFF;
+    /* h4/bold/16px */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 19.2px */
+    margin-bottom: 23px;
+}
+
+.form_slide {
+    width: 90%;
+}

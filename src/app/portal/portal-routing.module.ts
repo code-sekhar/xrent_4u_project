@@ -24,6 +24,18 @@ const routes: Routes = [
       {
         path:'my-profile',loadChildren:()=>import('../portal/my-profile/my-profile.module').then(m=>m.MyProfileModule)
       },
+      {
+        path:'edit-location',loadChildren:()=>import('../portal/edit-location/edit-location.module').then(m=>m.EditLocationModule)
+      },
+      {
+        path:'upload-photo',loadChildren:()=>import('../portal/upload-photo/upload-photo.module').then(m=>m.UploadPhotoModule)
+      },
+      {
+        path:'my-plan',loadChildren:()=>import('../portal/my-plan/my-plan.module').then(m=>m.MyPlanModule)
+      },
+      {
+        path:'select-plan',loadChildren:()=>import('../portal/select-plan/select-plan.module').then(m=>m.SelectPlanModule)
+      }
      // { path: 'change-password', redirectTo: '/change-password', pathMatch: 'full' },
      ]
   }
