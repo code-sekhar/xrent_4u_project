@@ -236,7 +236,42 @@ a.closes>span {
 
 @media only screen and (max-width: 1002px) and (min-width: 665px) {}
 
-@media only screen and (max-width: 664px) and (min-width: 300px) {}
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    a.closes {
+        width: 36px !important;
+        height: 35px;
+    }
+    a.closes>span {
+        width: auto !important;
+    }
+    .login_popup_section {
+        border-radius: 12px;
+        padding: 42px 26px;
+        position: fixed;
+        z-index: 999;
+        width: 90%;
+    }
+    .login_popup_section>a.closes {
+        border: 2px solid #546178;
+        border-radius: 10px !important;
+        background: rgb(60 64 72) !important;
+        top: -0px !important;
+    }
+    .login_popup_section>a.closes>span,
+    .forgot_password>a.closes>span,
+    .sucess_message>a.closes>span {
+        background: transparent !important;
+    }
+    .forgot_password>a.closes,
+    .sucess_message>a.closes {
+        border: 2px solid #546178;
+        border-radius: 10px !important;
+        background: rgb(60 64 72) !important;
+    }
+    .sucess_message {
+        width: 90% !important;
+    }
+}
 
 
 /* js_cont_justify */
@@ -304,13 +339,24 @@ a.closes>span {
 
 @media only screen and (max-width: 826px) and (min-width: 300px) {}
 
-@media only screen and (max-width: 480px) and (min-width: 300px) {}
+@media only screen and (max-width: 480px) and (min-width: 300px) {
+    .humberger_area>a {
+        font-size: 25px;
+    }
+    .inner_site_logo_area>img {
+        width: 130px;
+    }
+}
 
 @media only screen and (max-width: 370px) and (min-width: 320px) {}
 
 @media only screen and (max-width: 900px) and (min-width: 370px) {}
 
-@media only screen and (max-width: 790px) and (min-width: 300px) {}
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .forgot_password {
+        width: 90% !important;
+    }
+}
 
 @media only screen and (max-width: 1920px) and (min-width: 1080px) {}
 

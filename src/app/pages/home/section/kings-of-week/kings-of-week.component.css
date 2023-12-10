@@ -434,6 +434,11 @@ a.pagination_active {
     display: block;
 }
 
+.view_moreKinks_mob {
+    display: none;
+    margin-top: 35px;
+}
+
 @media only screen and (max-width: 1222px) and (min-width: 999px) {}
 
 @media only screen and (max-width: 1658px) and (min-width: 1000px) {}
@@ -491,7 +496,26 @@ a.pagination_active {
     }
 }
 
-@media only screen and (max-width: 826px) and (min-width: 300px) {}
+@media only screen and (max-width: 826px) and (min-width: 300px) {
+    .dd_menus {
+        text-align: center;
+    }
+    .king_of_week {
+        padding-top: 40px !important;
+    }
+    .view_moreKinks_mob {
+        display: block !important;
+        text-align: center;
+        color: #DA3A3F;
+        font-family: Open Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 15.6px */
+        text-decoration-line: underline;
+    }
+}
 
 @media only screen and (max-width: 480px) and (min-width: 300px) {}
 

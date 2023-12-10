@@ -208,3 +208,109 @@ a.forgets {
 .bottom_social_areas {
     text-align: right;
 }
+
+.bottomss.only_mob {
+    display: none;
+}
+
+.bottomss {
+    display: block;
+}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {}
+
+
+/* js_cont_justify */
+
+@media only screen and (max-width: 1398px) and (min-width: 993px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .login_body {
+        width: 100% !important;
+        padding: 48px 26px;
+    }
+    .login_body {
+        height: auto !important;
+    }
+    .inner_top_social_areas>ul {
+        text-align: center !important;
+    }
+    .bottom_social_areas {
+        text-align: center !important;
+    }
+    ul {}
+    .inner_top_social_areas>ul>li>a {
+        margin: 0px 5px !important;
+    }
+    .topss>button {
+        width: 100%;
+    }
+    .topss {
+        margin-bottom: 30px !important;
+        margin-top: 14px !important;
+    }
+    .login_header>h4 {
+        margin-bottom: 25px !important;
+    }
+    .top_social_areas {
+        margin-bottom: 20px !important;
+    }
+    .bottomss.only_mob {
+        display: block !important;
+    }
+    .bottomss {
+        display: none !important;
+    }
+    .top_social_areas {
+        margin-bottom: 36px;
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}

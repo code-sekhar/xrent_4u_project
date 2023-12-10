@@ -477,7 +477,83 @@ a.close_btns>span {
     justify-content: center;
 }
 
+.only_desks {
+    display: block;
+}
+
 
 /* .escort_information_full>ul>li:first-child {
     margin-left: 0px;
 } */
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {
+    .inner_main_profile_images {
+        width: 100% !important;
+    }
+    .full_static_ads_contents>ul {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2px 0;
+        row-gap: 1rem;
+    }
+    .escort_information_full>ul>li {
+        margin-right: 0 !important;
+    }
+    .escort_information_full>ul {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 2px 0;
+        row-gap: 1rem;
+    }
+    .escort_information_full.language>ul {
+        display: flex !important;
+    }
+    .action_aast_area {
+        margin-bottom: 12px;
+    }
+    .write_review_area {
+        width: 90% !important;
+    }
+    .write_review_area {
+        padding-left: 26px !important;
+        padding-right: 26px !important;
+    }
+    .write_review_area {
+        padding-top: 48px !important;
+        padding-bottom: 32px !important;
+    }
+    button.submit_btn {
+        font-size: 14px !important;
+        padding: 12px 26px !important;
+        font-weight: 600 !important;
+    }
+    .only_desks {
+        display: none !important;
+    }
+    .profile_details {
+        border-radius: 12px;
+        background: #242932;
+        padding: 24px 28px;
+        padding-bottom: 32px;
+    }
+    .useer_location {
+        padding: 18px 30px !important;
+    }
+    .useer_location>span.location_name>h2 {
+        margin-bottom: 0px;
+    }
+    .profile_details {
+        margin-top: 24px;
+    }
+    a.close_btns {
+        border: 2px solid #546178;
+        border-radius: 10px !important;
+        right: 24px !important;
+    }
+}

@@ -164,3 +164,14 @@ a.forgets {
 .bottom_social_areas {
     text-align: right;
 }
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .login_body {
+        width: 100% !important;
+        padding: 50px 25px !important;
+    }
+    .inner_sucess_tick>img {
+        width: 60px;
+        height: 60px;
+    }
+}

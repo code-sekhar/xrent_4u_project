@@ -89,3 +89,27 @@ span.bar {
     margin-top: 52px;
     padding-bottom: 48px;
 }
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {
+    .full_static_ads_contents>ul {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2px 0;
+        row-gap: 1rem;
+    }
+    .escort_information_full>ul>li {
+        margin-right: 0 !important;
+    }
+    .escort_information_full>ul {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 2px 0;
+        row-gap: 1rem;
+    }
+}

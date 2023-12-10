@@ -107,9 +107,36 @@
     }
 }
 
-@media only screen and (max-width: 826px) and (min-width: 300px) {}
+@media only screen and (max-width: 826px) and (min-width: 300px) {
+    .mobile_banner {
+        display: block !important;
+        overflow: hidden;
+    }
+    .mobile_banner_shape {
+        overflow: hidden;
+    }
+    .mobile_banner_shape {
+        position: relative;
+    }
+    .mobile_banner {
+        background: #1A1C21;
+    }
+}
 
-@media only screen and (max-width: 480px) and (min-width: 300px) {}
+@media only screen and (max-width: 480px) and (min-width: 300px) {
+    .mobile_banner_shape {
+        width: 90%;
+        height: 181px;
+    }
+    .mob_ban_img>img {
+        width: 180px !important;
+    }
+    .mob_banner_contents {
+        position: relative;
+        top: 60px;
+        transform: unset;
+    }
+}
 
 @media only screen and (max-width: 370px) and (min-width: 320px) {}
 

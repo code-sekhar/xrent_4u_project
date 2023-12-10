@@ -89,3 +89,8 @@
 .plan_columns {
     margin-bottom: 24px;
 }
+
+.mob_slidings_box .owl-theme .owl-dots .owl-dot.active span,
+.mob_slidings_box .owl-theme .owl-dots .owl-dot:hover span {
+    background: #EE0027;
+}

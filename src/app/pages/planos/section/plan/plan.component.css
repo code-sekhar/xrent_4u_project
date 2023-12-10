@@ -139,3 +139,52 @@ button.add_to_cart_btn>span {
     padding-top: 60px;
     padding-bottom: 48px;
 }
+
+.mob_plan_options>select {
+    padding: 20px 22px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #546178;
+    background: #1E232C;
+    color: #FFF;
+    /* h3/bold/20px */
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 24px */
+}
+
+.header_plan_mob_section {
+    margin-bottom: 36px;
+    display: none;
+}
+
+.mob_plan_options>select {
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
+}
+
+.mob_plan_options>select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1.5px solid rgba(84, 97, 120, 0.30);
+    background: #1E232C;
+    background-image: url(../../../../../assets/img/dd.svg);
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y: 20px;
+    border-radius: 2px;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .header_plan_mob_section {
+        display: block;
+    }
+}
