@@ -105,6 +105,23 @@
     .banner_section {
         height: auto !important;
     }
+    .inner_mob_banner_contents>h4 {
+        color: var(--White-primary, #FFF);
+        /* h3/black/20px */
+        font-family: Open Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1;
+    }
+    .inner_mob_banner_contents>h4>span {
+        color: #EE0027;
+    }
+    .mob_banner_contents {
+        position: relative;
+        top: 50%;
+        transform: translateY(190%);
+    }
 }
 
 @media only screen and (max-width: 826px) and (min-width: 300px) {
@@ -120,6 +137,9 @@
     }
     .mobile_banner {
         background: #1A1C21;
+    }
+    .banner_section.desk_banner {
+        display: none;
     }
 }
 
@@ -164,7 +184,13 @@
 
 @media only screen and (max-width: 11200px) and (min-width: 1400px) {}
 
-@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .mob_banner_contents {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
 
 @media only screen and (max-width: 999px) and (min-width: 300px) {}
 
