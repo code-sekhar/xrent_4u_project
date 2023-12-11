@@ -28,6 +28,7 @@ close_btnss(){
 show_login:boolean=false;
 logIn(){
 this.show_login= !this.show_login;
+this.show_open = false;
 }
 closeLog(){
   this.show_login=false;

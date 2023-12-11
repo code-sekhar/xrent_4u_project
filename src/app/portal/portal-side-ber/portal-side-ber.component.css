@@ -139,7 +139,11 @@ span.name_txt {
         text-align: left !important;
     }
     .portal_logo>img {
-        width: 150px !important;
+        width: 110px !important;
+    }
+    .portal_logo>img {
+        width: 175px;
+        height: auto;
     }
 }
 

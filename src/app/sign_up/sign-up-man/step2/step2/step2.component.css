@@ -550,6 +550,39 @@ label.main_label {
     display: none;
 }
 
+select.input_field {
+    color: rgba(255, 255, 255, 0.20);
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 15.6px */
+}
+
+select.input_field {
+    -moz-appearance: none;
+    /* Firefox */
+    -webkit-appearance: none;
+    /* Safari and Chrome */
+    appearance: none;
+}
+
+select.input_field {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1.5px solid rgba(84, 97, 120, 0.30);
+    background: #1E232C;
+    background-image: url(../../../../../assets/img/dd.svg);
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y: 18px;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+
 @media only screen and (max-width: 1222px) and (min-width: 999px) {}
 
 @media only screen and (max-width: 1658px) and (min-width: 1000px) {}

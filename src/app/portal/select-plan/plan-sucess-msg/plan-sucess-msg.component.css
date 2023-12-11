@@ -56,3 +56,13 @@
 .payment_sucess_response {
     background: #1E232C;
 }
+
+.profile_btn_area.only_mob {
+    display: none;
+}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {
+    .profile_btn_area.only_mob {
+        display: block;
+    }
+}
