@@ -104,3 +104,11 @@ h4.change_pass {
 .change_pass {
     cursor: pointer;
 }
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .page_header {
+        border-bottom: 1px solid rgba(84, 97, 120, 0.30);
+        padding-bottom: 25px;
+        margin-bottom: 30px !important;
+    }
+}

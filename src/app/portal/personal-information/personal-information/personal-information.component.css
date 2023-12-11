@@ -399,6 +399,10 @@ button.pp_links.desk {
     display: block;
 }
 
+img.mobile_pr_img {
+    display: none;
+}
+
 @media only screen and (max-width: 1222px) and (min-width: 999px) {}
 
 @media only screen and (max-width: 1658px) and (min-width: 1000px) {}
@@ -464,7 +468,11 @@ button.pp_links.desk {
 
 @media only screen and (max-width: 900px) and (min-width: 370px) {}
 
-@media only screen and (max-width: 790px) and (min-width: 300px) {}
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    img.mobile_pr_img {
+        display: block !important;
+    }
+}
 
 @media only screen and (max-width: 1920px) and (min-width: 1080px) {}
 

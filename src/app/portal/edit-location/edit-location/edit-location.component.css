@@ -327,3 +327,14 @@ button.backs {
 .inner_search_curent_location.border_o {
     border-bottom: 0;
 }
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {
+    .page_header {
+        border-bottom: 1px solid rgba(84, 97, 120, 0.30);
+        padding-bottom: 25px;
+        margin-bottom: 30px !important;
+    }
+    .blank_height {
+        height: 50px;
+    }
+}

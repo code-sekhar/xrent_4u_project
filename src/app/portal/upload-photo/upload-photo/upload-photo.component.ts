@@ -15,10 +15,12 @@ export class UploadPhotoComponent {
     navText: [ '<span class="left_ars ll_fft"><img src="../../../../../assets/img/left.png" class="left_icon"></span>', '<span class="right_ars rr_fft"><img src="../../../../../assets/img/right.png" class="right_icon"></span>' ],
     responsive: {
       0: {
-        items: 1
+        items:2,
+        nav:false,
       },
       400: {
-        items: 1
+        items: 2,
+        nav:false,
       },
       740: {
         items: 3

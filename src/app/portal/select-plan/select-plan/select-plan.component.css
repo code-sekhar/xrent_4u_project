@@ -520,3 +520,227 @@ span.vld {
 .content_select_new_plan_page {
     padding-top: 74px;
 }
+
+h4.valid_label>span {
+    color: #FFF;
+    /* h4/regular/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+}
+
+h4.valid_label {
+    color: #FFF;
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+    margin-bottom: 23px;
+}
+
+.inner_cancel_plan>button {
+    border-radius: 10px;
+    border: 2px solid #313844;
+    background: #282F39;
+    padding: 12px 30px;
+    line-height: 1;
+    color: #546178;
+    /* h4/bold/13px */
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    /* 15.6px */
+    outline: none;
+}
+
+.selected_plan_box {
+    margin-bottom: 34px;
+}
+
+.col-xl-6.custom_bbgg_blls.desk_top_view {
+    display: block;
+}
+
+.col-xl-6.custom_bbgg_blls.mobile_views {
+    display: none;
+}
+
+.mobile_plan_popup {
+    position: fixed;
+    top: 50%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a.close_plans {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 30px;
+}
+
+a.close_plans>span>svg {
+    width: 30px;
+}
+
+.bg_dark {
+    position: fixed;
+    background: #000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(26, 28, 33, 0.80);
+}
+
+.mobile_plan_popup {
+    z-index: 9;
+}
+
+@media only screen and (max-width: 1222px) and (min-width: 999px) {}
+
+@media only screen and (max-width: 1658px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1002px) and (min-width: 665px) {}
+
+@media only screen and (max-width: 664px) and (min-width: 300px) {
+    .hdd.llps>h4 {
+        text-align: left !important;
+    }
+    input.checkbox-input {
+        opacity: 0;
+    }
+    .product_types_areas {
+        border-radius: 12px !important;
+    }
+    .col-xl-6.custom_bbgg_blls.desk_top_view {
+        display: none;
+    }
+    .col-xl-6.custom_bbgg_blls.mobile_views {
+        display: block;
+    }
+    .custom_bbgg_blls {
+        width: 90%;
+        margin: auto;
+        border-radius: 12px !important;
+        margin-bottom: 24px;
+    }
+    .product_types_areas {
+        padding: 45px 10px;
+    }
+    .hdd>h4 {
+        text-align: center;
+    }
+    input.checkbox-input {
+        top: 63px;
+        left: 25px;
+    }
+    .custom_bbgg {
+        width: 90%;
+        margin: auto;
+        border-radius: 12px !important;
+        padding: 24px 24px !important;
+    }
+    .form_header>h4 {
+        font-size: 22px !important;
+    }
+    .form_header>p {
+        font-size: 14px !important;
+    }
+    .form__privacy>label {
+        line-height: unset !important;
+    }
+    span.checkbox-icon>h3 {
+        font-size: 16px !important;
+    }
+    .hdd.ctts>h4 {
+        margin-bottom: 24px !important;
+    }
+    span.checkbox-icon.tltt {
+        padding-left: 25px;
+    }
+    .ffl>h4 {
+        text-align: center !important;
+    }
+    a.plan_change {
+        color: #546178;
+        text-align: center;
+        /* h4/regular/13px */
+        font-family: Open Sans;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1;
+        /* 15.6px */
+        text-decoration: none;
+        text-align: center;
+    }
+    .change_of_plan {
+        text-align: center;
+        margin-top: 20px;
+        /* margin-left: 8px; */
+    }
+    .change_of_plan>a>span {
+        margin-left: 8px;
+    }
+    span.checkbox-label.active_planss {
+        background: #EE0027;
+    }
+}
+
+
+/* js_cont_justify */
+
+@media only screen and (max-width: 1398px) and (min-width: 993px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 826px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 480px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 370px) and (min-width: 320px) {}
+
+@media only screen and (max-width: 900px) and (min-width: 370px) {}
+
+@media only screen and (max-width: 790px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 1920px) and (min-width: 1080px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 826px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1600px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 400px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 551px) {}
+
+@media only screen and (max-width: 1382px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1480px) and (min-width: 1000px) {}
+
+@media only screen and (max-width: 1524px) and (min-width: 1422px) {}
+
+@media only screen and (max-width: 1657) and (min-width: 1524px) {}
+
+@media only screen and (max-width: 11200px) and (min-width: 1400px) {}
+
+@media only screen and (max-width: 1000px) and (min-width: 700px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 999px) and (min-width: 768px) {}
+
+@media only screen and (max-width: 767px) and (min-width: 300px) {}
+
+@media only screen and (max-width: 4999px) and (min-width: 999px) {}
+
+@media only screen and (max-height: 4999px) and (min-height: 990px) {}

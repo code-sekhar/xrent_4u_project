@@ -296,6 +296,37 @@ button.backs {
 @media only screen and (max-width: 900px) and (min-width: 370px) {}
 
 @media only screen and (max-width: 790px) and (min-width: 300px) {
+    .full_page_headings>h2 {
+        color: #FFF;
+        /* h3/bold/25px */
+        font-family: Open Sans;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 30px */
+    }
+    .full_page_headings>p {
+        color: #FFF;
+        /* h4/regular/16px */
+        font-family: Open Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        /* 19.2px */
+    }
+    .full_main_pagess {
+        border-bottom: 1px solid rgba(84, 97, 120, 0.30);
+        width: 100%;
+    }
+    .stape_indecate.for_mobile {
+        padding-right: 0;
+    }
+    .inner_main_pages.mob_mob {
+        margin-bottom: 40px;
+    }
+    /* end */
     .top_sidesbar.mob_step {
         padding-bottom: 0;
     }
